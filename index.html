@@ -44,7 +44,7 @@
 
 	// A $( document ).ready() block.
 	$( document ).ready(function() {
-		$.getJSON('http://localhost:8080/sowell/', function(json_data){
+		$.getJSON('https://sowellquoteapi.fly.dev/sowell', function(json_data){
 			alert(JSON.stringify(json_data));
 		});
 	});
