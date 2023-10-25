@@ -44,7 +44,7 @@
 
 	// A $( document ).ready() block.
 	$( document ).ready(function() {
-		$.getJSON('http://sowell-quote-api:1999/sowell', function(json_data){
+		$.getJSON('http://sowell-quote-api.com:1999/sowell', function(json_data){
 			console.log("JSON: " + json_data)
 			document.getElementById("quote").innerHTML = "\"" + json_data.text + "\""
 		});
